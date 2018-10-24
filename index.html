@@ -25,7 +25,7 @@
             transform-style: preserve-3d;
             perspective-origin: 250px 100px;
             animation: ul 2s linear 5s infinite;
-            
+           
         }
         ul:hover li{
             opacity: 1;
@@ -99,6 +99,10 @@
             background: url("images/luna.jpg");
             background-size: 200px 200px;
         }
+        div{
+            display: flex;
+             
+        }
        
       @keyframes li1 {
           100%{transform: rotateY(-90deg);
@@ -157,6 +161,7 @@
 </head>
 <body>
     <p>点击方位改变旋转方向,悬停发光</p>
+    <div>
     <ul>
         <li></li>
         <li></li>
@@ -165,6 +170,7 @@
         <li></li>
         <li></li>
     </ul>
+</div>
 </body>
 </html>
 <script>
